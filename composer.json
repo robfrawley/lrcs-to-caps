@@ -1,0 +1,30 @@
+{
+    "name": "robfrawley/lrcs-to-caps",
+    "description": "A CLI tool to convert lyric (LRC) metadata or files to a number of video caption file formats.",
+    "type": "project",
+    "require": {
+        "symfony/console": "^7.1",
+        "symfony/process": "^7.1",
+        "symfony/yaml": "^7.1",
+        "symfony/filesystem": "^7.1",
+        "symfony/options-resolver": "^7.1",
+        "symfony/config": "^7.1",
+        "captioning/captioning": "^3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1",
+        "symfony/stopwatch": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RMF\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rob Frawley 2nd",
+            "email": "rmf@src.run"
+        }
+    ]
+}

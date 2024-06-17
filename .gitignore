@@ -1,0 +1,4 @@
+/vendor/
+/.idea/
+/output.srt
+/composer.lock
