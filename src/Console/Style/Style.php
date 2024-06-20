@@ -31,4 +31,12 @@ class Style
     public static function style(): SymfonyStyle {
         return self::$s;
     }
+
+    public static function argument(string $name): mixed {
+        return self::input()->getArgument($name);
+    }
+
+    public static function option(string $name): mixed {
+        return self::input()->getOption($name);
+    }
 }
